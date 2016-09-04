@@ -9,7 +9,7 @@ import React, { Component } from 'react';
 
 
 import {
-  AppRegistry,
+  	AppRegistry,
     View
 } from 'react-native';
 
@@ -17,13 +17,13 @@ import {
 
 
 class holaMundo extends Component {
-  render() {
-  return (
-      <View style={{backgroundColor:'blue', flex:1, justifyContent:'center', alignItems:'center'}}>
-        <View style={{backgroundColor:'red', height:100, width:100}}></View>
-      </View>
-  );
-  }
+  	render() {
+  		return (
+      		<View style={{backgroundColor:'blue', flex:1, justifyContent:'center', alignItems:'center'}}>
+        		<View style={{backgroundColor:'red', height:100, width:100}}></View>
+      		</View>
+  		);
+  	}
 }
 
 
